@@ -60,6 +60,7 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 - [Data Analysis GPT](https://chatgpt.com/g/g-68a49ec824048191a708c1d4db73d1d3-data-analysis-gpt)
 - [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/00_data-analysis-gpt.md)
 - [Chat example](https://chatgpt.com/share/68a591a9-4330-800b-82fd-17fc5a363611)
+- [Google Colab Notebook](https://colab.research.google.com/drive/1DN07oMF_55huORgH9fYPjZiF0q5auGL7?usp=sharing)
 - Artifacts: [CSV](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/invoices_with_b2b_b2c.csv)
 
 ### Use Case 9: Forecasting
