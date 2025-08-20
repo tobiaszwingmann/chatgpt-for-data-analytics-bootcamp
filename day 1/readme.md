@@ -23,10 +23,12 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 - [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/03_rca-gpt.md)
 - [Chat example](https://chatgpt.com/share/68a59710-69e0-800b-8428-847b2ad415f0)
 
-# Use Case 4: Storytelling
-- [Data Story GPT](https://chat.openai.com/g/g-tF6UvnShB-data-storytelling-gpt)
-- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/GPT%20Configs/data-storytelling-gpt.md)
-- [Chat example](https://chatgpt.com/share/67c86566-120c-800b-91ef-fd0c4d9cde2f)
+# Use Case 4: Data Storytelling
+- [Data Story GPT](https://chatgpt.com/g/g-68a5979657f88191bf8edb5aa6c632e4-data-storytelling-gpt)
+- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/04_data-storytelling-gpt.md)
+- [Chat example](https://chatgpt.com/share/68a59c59-2820-800b-9c7b-bc4f69a3da26)
+- Artifacts: [PowerPoint](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/Elegant_Homes_Segmentation_Presentation.pptx)
+
 
 # Use Case 5a: Exploratory Data Analysis
 - [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/Store-Reports.xlsx)
