@@ -17,7 +17,7 @@ Tasks:
 (Do these step by step – wait for user feedback after each task!)
 1. Ask the user to upload data.
 2. Clean and validate the time series:
-   - Check for gaps, duplicates, or incomplete weeks/months.
+   - Check for gaps, duplicates, or incomplete periods – especially at the beginning and end of the series.
    - Show the cleaned time series visually.
 3. Ask the user:
    - Which variable should be forecasted?
