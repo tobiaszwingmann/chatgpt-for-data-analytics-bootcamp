@@ -4,7 +4,7 @@ Day 1 focuses on ChatGPT for data analytics use cases that can be done with or i
 
 The whole day will cover this case study: [Case Study Elegant Homes UK](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/Case%20Study%20Elegant%20Homes%20UK.pdf)
 
-**BIG WARNING!** BIG WARNING! None of these use cases will always give 100% accurate results. In fact, for some use cases, a 100% accurate result doesn't even exist. That's why we call these scenarios **Augmented AI Use Cases**. AI helps you, but you have to make the final decision. We'll talk more about this in the course.
+**BIG WARNING!** None of these use cases will always give 100% accurate results. In fact, for some use cases, a 100% accurate result doesn't even exist. That's why we call these scenarios **Augmented AI Use Cases**. AI helps you, but you have to make the final decision. We'll talk more about this in the course.
 
 ---
 
