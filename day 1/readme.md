@@ -36,7 +36,7 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 ## Everyday Excel Support 
 ### Use Case 5: Excel Guru
 - [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report.xlsx)
-- [EDA GPT](https://chatgpt.com/g/g-68a4cf16611c81919e185a006c193d70-excel-guru)
+- [Excel Guru GPT](https://chatgpt.com/g/g-68a4cf16611c81919e185a006c193d70-excel-guru)
 - [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/05_excel-guru-gpt.md)
 - [Chat example 1](https://chatgpt.com/share/68a4d93d-1804-800b-b3cf-f20ad782a770)
 - [Chat example 2](https://chatgpt.com/share/68a4d6b7-aa94-800b-9ff3-bc4ff3acff23)
