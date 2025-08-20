@@ -52,6 +52,7 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 # Use Case 8: Customer Segmentation
 - Data: [invoices.csv](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/invoices.csv), [invoice_lines.csv](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/invoice_lines.csv)
 - [Data Analysis GPT](https://chatgpt.com/g/g-68a49ec824048191a708c1d4db73d1d3-data-analysis-gpt)
+- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/00_data-analysis-gpt.md)
 - [Chat example](https://chatgpt.com/share/68a591a9-4330-800b-82fd-17fc5a363611)
 - Artifacts: [CSV](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/invoices_with_b2b_b2c.csv)
 
