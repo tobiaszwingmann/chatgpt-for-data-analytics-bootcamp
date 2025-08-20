@@ -29,26 +29,32 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 - [Chat example](https://chatgpt.com/share/68a59c59-2820-800b-9c7b-bc4f69a3da26)
 - Artifacts: [PowerPoint](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/Elegant_Homes_Segmentation_Presentation.pptx)
 
+# Everyday Excel Support 
+## Use Case 5: Excel Guru
+- [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report.xlsx)
+- [EDA GPT](https://chatgpt.com/g/g-68a4cf16611c81919e185a006c193d70-excel-guru)
+- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/05_excel-guru-gpt.md)
+- [Chat example 1](https://chatgpt.com/share/68a4d93d-1804-800b-b3cf-f20ad782a770)
+- [Chat example 2](https://chatgpt.com/share/68a4d6b7-aa94-800b-9ff3-bc4ff3acff23)
+- Artifacts: [Excel](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/consolidated_customer_report_with_segments.xlsx)
 
-# Use Case 5a: Exploratory Data Analysis
-- [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/Store-Reports.xlsx)
-- [EDA GPT](https://chat.openai.com/g/g-Vq2Ro5JoV-eda-gpt)
-- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/GPT%20Configs/EDA-gpt.md)
-- [Chat example](https://chatgpt.com/share/67c84d6f-bb0c-800b-bddd-56816cb0b105)
+# Data Analysis inside ChatGPT
+## Use Case 6: General data analysis
+- [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report_tidy.xlsx)
+- [Chat example](https://chatgpt.com/share/68a57d5e-d20c-800b-886a-4fa6571d1c75)
 
-# Use Case 5b: Tidy Data Analysis
-- [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/Store-Reports.xlsx)
-- [Data Analysis GPT](https://chat.openai.com/g/g-HMNcP6w7d-data-analysis)
-- [Chat example](https://chatgpt.com/share/67c85106-eb38-800b-9339-0ce3b04616f0)
+# Use Case 7: Exploratory Data Analysis
+- [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report_tidy.xlsx)
+- [EDA GPT](https://chatgpt.com/g/g-68a37ec2e9208191862b8cc8a9dec43f-eda-gpt)
+- [Chat example](https://chatgpt.com/share/68a5aebb-a3a8-800b-831e-9159ccca0a73)
+- [Google Colab Notebook](https://colab.research.google.com/drive/1qfhc7__I0594N2eKzghVITDlDk8Ubizv?usp=sharing) 
 
-# Use Case 5c: Transactional Data Analysis
-- [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/Ecommerce-Transactions.csv)
-- [Data Analysis GPT](https://chat.openai.com/g/g-HMNcP6w7d-data-analysis)
-- [Chat example](https://chatgpt.com/share/67c8554e-5af4-800b-aac6-aa8e07c6ee9a)
+# Use Case 8: Customer Segmentation
+- Data: [invoices.csv](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/invoices.csv), [invoice_lines.csv](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/invoice_lines.csv)
+- [Data Analysis GPT](https://chatgpt.com/g/g-68a49ec824048191a708c1d4db73d1d3-data-analysis-gpt)
+- [Chat example](https://chatgpt.com/share/68a591a9-4330-800b-82fd-17fc5a363611)
+- Artifacts: [CSV](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/consolidated_customer_report_with_segments.xlsx)
 
-# Use Case 6: Step-by-Step Instructions
-- [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/Managers_sales_report.xlsx)
-- [Chat example](https://chatgpt.com/share/6735ddd7-9910-800b-81e9-2f8799c87904)
 
 # Use Case 7: Generate Excel Formulas
 - [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/Email-Report.xlsx)
