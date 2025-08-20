@@ -2,26 +2,26 @@
 
 Day 1 focuses on ChatGPT for data analytics use cases that can be done with or inside the ChatGPT app. No technical knowledge required!
 
-The whole day will cover this case study: [Case Study Elegant Homes UK](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/Case%20Study_%20Pedal%20Power%20Inc.pdf)
+The whole day will cover this case study: [Case Study Elegant Homes UK](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/Case%20Study%20Elegant%20Homes%20UK.pdf)
 
-**BIG WARNING!** None of these use cases will always give 100% accurate results. In fact, for some use cases, a 100% accurate result doesn't even exist. That's why we call these scenarios **Augmented AI Use Cases**. AI helps you, but you have to make the final decision. We'll talk more about this in the course.
+**BIG WARNING!** BIG WARNING! None of these use cases will always give 100% accurate results. In fact, for some use cases, a 100% accurate result doesn't even exist. That's why we call these scenarios **Augmented AI Use Cases**. AI helps you, but you have to make the final decision. We'll talk more about this in the course.
 
-# Use Case 1: Problem Statements
-- [Smart Problem GPT](https://chat.openai.com/g/g-tHZOlUaYD-smart-problem-gpt)
-- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/GPT%20Configs/smart-problem-gpt.md)
-- [Chat example](https://chatgpt.com/share/67c857f3-5b60-800b-8b10-4acd43c91ae6)
+# Data Analysis Frameworks
+## Use Case 1: Problem Statements
+- [Smart Problem GPT](https://chatgpt.com/g/g-tHZOlUaYD-smart-problem-gpt)
+- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/01_smart-problem-gpt.md)
+- [Chat example](https://chatgpt.com/share/68a04842-8f28-800b-b1b8-47fe2ba648bc)
 
-# Use Case 2: Issue Trees
-- [Issue Tree GPT](https://chat.openai.com/g/g-qaKT45vrL-issue-tree-gpt)
-- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/GPT%20Configs/Issue-tree-gpt.md)
-- [Chat example with GPT-4o](https://chatgpt.com/share/05f963d9-007b-427a-8433-32daedd590ef)
-- [GPT-o1 Prompt](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/issue-tree-prompt-o1.txt)
-- [Chat example with GPT-o1](https://chatgpt.com/share/6735d987-9730-800b-a512-63c3b891af65)
+## Use Case 2: Issue Trees
+- [Issue Tree GPT](https://chatgpt.com/g/g-qaKT45vrL-issue-tree-gpt)
+- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/02_issue-tree-gpt.md)
+- [Chat example](https://chatgpt.com/share/68a06db4-830c-800b-896c-4f9f4e073ffc)
+- Artifacts: [PowerPoint](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/Elegant_Homes_Segmentation_Issue_Tree.pptx)
 
 # Use Case 3: Root Cause Analysis
-- [RCA GPT](https://chat.openai.com/g/g-3fPXHFQOm-rca-gpt)
-- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics/blob/main/Day%201/GPT%20Configs/RCA-gpt.md)
-- [Chat example](https://chat.openai.com/share/2e942b04-f8cf-49d3-9dff-cfe4682b540f)
+- [RCA GPT](https://chatgpt.com/g/g-68a595214cdc8191885d097cdd8243d2-rca-gpt)
+- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/03_rca-gpt.md)
+- [Chat example](https://chatgpt.com/share/68a59710-69e0-800b-8428-847b2ad415f0)
 
 # Use Case 4: Storytelling
 - [Data Story GPT](https://chat.openai.com/g/g-tF6UvnShB-data-storytelling-gpt)
