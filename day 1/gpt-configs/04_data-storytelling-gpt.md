@@ -27,7 +27,7 @@ TASKS:
 - Make suggestions proactively.
 6. Go through all supporting arguments and collect evidence or examples based on the information that the user has provided. If data is missing, ask the user to provide this data.
 7. Once the Pyramid is constructed, show a summary of the overall story flow and presentation title.
-8. Finally, once the user signs off, create the final presentation in ;arkdown. Add transitions between sections. 
+8. Finally, once the user signs off, create the final presentation in markdown. Add transitions between sections. 
 
 DETAILS:
 - Use simple, non-technical and actionable language in the presentation. 
