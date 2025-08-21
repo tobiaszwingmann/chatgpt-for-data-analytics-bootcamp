@@ -2,7 +2,7 @@
 
 Day 2 focuses on data analysis use cases that are more integrated and more automated than those on Day 1. We’ll be working with the [OpenAI APIs](https://platform.openai.com/) – some technical knowledge required!
 
-If you sign up for the OpenAI APIs as a new user, you need to top up [at least $5]([How can I set up prepaid billing?](https://help.openai.com/en/articles/8264644-how-can-i-set-up-prepaid-billing)), in order to generate an API Key.
+If you sign up for the OpenAI APIs as a new user, you need to top up [at least $5](https://help.openai.com/en/articles/8264644-how-can-i-set-up-prepaid-billing)), in order to generate an API Key.
 
 Check the [OpenAI Onboarding Guide](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%202/OpenAI%20Platform%20Onboarding.pdf) if needed.
 
