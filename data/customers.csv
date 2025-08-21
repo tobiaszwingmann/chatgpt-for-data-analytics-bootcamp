@@ -1,0 +1,101 @@
+CustomerID,Country,ShippingCity,MarketingOptIn,EmailDomain,LifetimeRevenue
+12415,Australia,Wollongong,0,cust12415-group.com.au,124914.53
+14156,EIRE,Dublin,0,cust14156-solutions.ie,117379.63
+14016,EIRE,Killarney,1,outlook.com,4341.21
+12567,France,Paris,1,outlook.com,9401.28
+12583,France,Poitiers,1,gmail.com,7281.38
+12681,France,Strasbourg,0,gmail.com,13787.54
+12647,Germany,Cologne,0,icloud.com,3722.82
+12481,Germany,Duesseldorf,0,icloud.com,5596.32
+12471,Germany,Köln,1,gmx.de,19824.05
+12476,Germany,Köln,0,icloud.com,6816.42
+13815,Germany,Nürnberg,0,gmx.de,4027.36
+14646,Netherlands,Amsterdam,0,cust14646-bv.nl,280206.02
+12540,Spain,Valencia,0,gmail.com,13400.24
+12409,Switzerland,Thun,0,cust12409-ag.ch,11072.67
+12451,Switzerland,Thun,0,cust12451-handel.ch,9035.52
+12921,United Kingdom,Bangor,0,gmail.com,16587.09
+15290,United Kingdom,Bath,1,outlook.com,7943.22
+16161,United Kingdom,Bath,0,outlook.com,5575.56
+15093,United Kingdom,Bath,1,gmail.com,4597.02
+13408,United Kingdom,Birmingham,0,cust13408-wholesale.co.uk,28117.04
+15189,United Kingdom,Birmingham,0,sky.com,16225.39
+13199,United Kingdom,Birmingham,0,sky.com,9817.12
+18198,United Kingdom,Birmingham,1,icloud.com,5425.56
+15808,United Kingdom,Birmingham,0,gmail.com,3734.97
+15601,United Kingdom,Bristol,1,outlook.com,6776.56
+12901,United Kingdom,Canterbury,0,yahoo.co.uk,17654.54
+16133,United Kingdom,Canterbury,0,hotmail.co.uk,14589.04
+13668,United Kingdom,Canterbury,1,icloud.com,6363.59
+14735,United Kingdom,Cardiff,0,yahoo.co.uk,6065.69
+14415,United Kingdom,Cardiff,0,hotmail.co.uk,5900.28
+17419,United Kingdom,Cardiff,0,outlook.com,4226.57
+13599,United Kingdom,Carlisle,1,icloud.com,5153.67
+14180,United Kingdom,Carlisle,1,outlook.com,4748.52
+15804,United Kingdom,Carlisle,0,btinternet.com,4206.39
+17949,United Kingdom,Edinburgh,1,cust17949-wholesale.co.uk,58510.48
+14298,United Kingdom,Edinburgh,1,cust14298-wholesale.co.uk,51527.3
+14258,United Kingdom,Edinburgh,1,outlook.com,12669.98
+13999,United Kingdom,Edinburgh,0,btinternet.com,3901.81
+16029,United Kingdom,Glasgow,0,cust16029-wholesale.co.uk,81024.84
+14796,United Kingdom,Glasgow,0,btinternet.com,8022.49
+17001,United Kingdom,Glasgow,0,btinternet.com,3989.57
+17091,United Kingdom,Glasgow,0,outlook.com,3827.76
+17428,United Kingdom,Inverness,0,icloud.com,17256.85
+17677,United Kingdom,Lancaster,1,yahoo.co.uk,16363.23
+13694,United Kingdom,Leeds,0,cust13694-group.co.uk,65039.62
+15311,United Kingdom,Leeds,1,cust15311-trading.co.uk,60767.9
+17017,United Kingdom,Leeds,0,gmail.com,8694.26
+13756,United Kingdom,Leeds,0,gmail.com,5189.52
+14426,United Kingdom,Leeds,1,hotmail.co.uk,4481.67
+16717,United Kingdom,Leeds,1,gmail.com,3858.38
+15061,United Kingdom,Leicester,0,cust15061-wholesale.co.uk,54534.14
+13081,United Kingdom,Leicester,0,cust13081-group.co.uk,28337.38
+17730,United Kingdom,Leicester,1,outlook.com,5298.48
+13267,United Kingdom,Leicester,1,gmail.com,4521.49
+18102,United Kingdom,Liverpool,0,cust18102-wholesale.co.uk,259657.3
+17841,United Kingdom,Liverpool,0,cust17841-trading.co.uk,40991.57
+17735,United Kingdom,Liverpool,0,gmail.com,13110.02
+18109,United Kingdom,Liverpool,1,gmail.com,8052.97
+16033,United Kingdom,Llandudno,1,icloud.com,8816.4
+14110,United Kingdom,Llandudno,0,yahoo.co.uk,5683.15
+17365,United Kingdom,Llandudno,1,outlook.com,4801.56
+14085,United Kingdom,Llandudno,1,outlook.com,4448.54
+17857,United Kingdom,London,0,cust17857-wholesale.co.uk,26879.04
+15694,United Kingdom,London,0,outlook.com,6479.4
+17819,United Kingdom,London,0,outlook.com,3704.87
+16446,United Kingdom,Manchester,1,cust16446-solutions.co.uk,168472.5
+17675,United Kingdom,Manchester,1,cust17675-solutions.co.uk,20374.28
+15125,United Kingdom,Manchester,1,hotmail.co.uk,11528.48
+16652,United Kingdom,Manchester,0,gmail.com,6773.97
+15218,United Kingdom,Manchester,1,btinternet.com,5756.89
+15555,United Kingdom,Manchester,1,gmail.com,4805.17
+15187,United Kingdom,Manchester,0,sky.com,4777.18
+18229,United Kingdom,Newcastle upon Tyne,0,gmail.com,7276.9
+13225,United Kingdom,Newcastle upon Tyne,1,sky.com,6463.84
+12971,United Kingdom,Newquay,1,hotmail.co.uk,11189.91
+13078,United Kingdom,Nottingham,0,outlook.com,12627.94
+14606,United Kingdom,Nottingham,0,yahoo.co.uk,12156.65
+15251,United Kingdom,Nottingham,0,btinternet.com,10484.99
+15502,United Kingdom,Nottingham,1,gmail.com,10384.93
+16523,United Kingdom,Nottingham,0,gmail.com,9418.47
+13488,United Kingdom,Nottingham,0,outlook.com,8968.31
+17509,United Kingdom,Nottingham,0,gmail.com,6115.14
+16013,United Kingdom,Sheffield,0,cust16013-wholesale.co.uk,37130.6
+13777,United Kingdom,Sheffield,1,cust13777-trading.co.uk,25977.16
+17865,United Kingdom,Sheffield,0,gmail.com,10526.32
+14667,United Kingdom,Sheffield,0,gmail.com,9241.2
+15249,United Kingdom,Sheffield,1,btinternet.com,6688.46
+15738,United Kingdom,Sheffield,1,outlook.com,4812.42
+18073,United Kingdom,Sheffield,1,gmail.com,3877.52
+16145,United Kingdom,Sheffield,0,outlook.com,3799.49
+12989,United Kingdom,Shrewsbury,0,gmail.com,6924.11
+13089,United Kingdom,Stirling,1,cust13089-plc.co.uk,58825.83
+13269,United Kingdom,Stirling,1,sky.com,5346.23
+14060,United Kingdom,Truro,0,icloud.com,6140.42
+17940,United Kingdom,Truro,0,gmail.com,4106.44
+17450,United Kingdom,York,1,cust17450-supplies.co.uk,194550.79
+12748,United Kingdom,York,0,cust12748-trading.co.uk,33719.73
+13319,United Kingdom,York,1,icloud.com,10845.55
+15078,United Kingdom,York,1,gmail.com,9743.11
+14534,United Kingdom,York,0,outlook.com,4447.05
