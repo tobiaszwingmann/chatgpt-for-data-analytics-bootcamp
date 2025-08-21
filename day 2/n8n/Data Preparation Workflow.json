@@ -1,0 +1,368 @@
+{
+  "name": "Data Preparation Workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -144,
+        140
+      ],
+      "id": "fbf97e3b-90c4-4f64-8970-03abf149d7df",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "resource": "file",
+        "operation": "get",
+        "owner": {
+          "__rl": true,
+          "value": "tobiaszwingmann",
+          "mode": "name"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "chatgpt-for-data-analytics-bootcamp",
+          "mode": "name"
+        },
+        "filePath": "data/customers.csv",
+        "additionalParameters": {}
+      },
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1.1,
+      "position": [
+        80,
+        140
+      ],
+      "id": "954a913e-de6f-4eca-83f3-3d536d62c846",
+      "name": "Get a file",
+      "webhookId": "2036f43a-ce01-4971-96aa-cb66294ebef5",
+      "credentials": {
+        "githubOAuth2Api": {
+          "id": "rqkMAdMVwbOGDQB4",
+          "name": "GitHub account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        304,
+        140
+      ],
+      "id": "630c448f-3c32-4175-8fca-14fc269c8075",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.ShippingCity }} ({{ $json.Country }})",
+        "messages": {
+          "messageValues": [
+            {
+              "message": "=Return the city name normalized to plain English. (City name only, no country)"
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        752,
+        16
+      ],
+      "id": "d111c153-1c54-47a6-9966-f959ca5660b4",
+      "name": "City name to English"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $('Limit').item.json.EmailDomain }}",
+        "messages": {
+          "messageValues": [
+            {
+              "message": "Check if this is a personal or business email. Return 'Personal' or 'Business'."
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        1104,
+        16
+      ],
+      "id": "a527bedd-ad47-4f81-9815-9abd55f38f09",
+      "name": "Email classification"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "chatgpt-4o-latest",
+          "mode": "list",
+          "cachedResultName": "chatgpt-4o-latest"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        1248,
+        240
+      ],
+      "id": "cd515b35-e116-4edc-bd97-212978277918",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "vIt4XIujtaBmV5aq",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "maxItems": 5
+      },
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        528,
+        140
+      ],
+      "id": "b82c1f02-5bd8-4df0-b825-f52c3df8fc6e",
+      "name": "Limit"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $('Limit').item.json.Country }}, {{ $('Limit').item.json.ShippingCity }}",
+        "messages": {
+          "messageValues": [
+            {
+              "message": "Return only the state/province/region in English that the following city belongs to:"
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        1440,
+        16
+      ],
+      "id": "d4f0f37d-2eb5-4730-a890-475c55056442",
+      "name": "State/Region"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "5f2ab6f5-e36c-49b1-a4d2-212870a0a5a1",
+              "name": "city_clean",
+              "value": "={{ $('City name to English').item.json.text }}",
+              "type": "string"
+            },
+            {
+              "id": "181e7abe-b6a1-495b-9d9b-6bd3b30e49cd",
+              "name": "email_type",
+              "value": "={{ $('Email classification').item.json.text }}",
+              "type": "string"
+            },
+            {
+              "id": "b316a215-b066-4e06-9cb6-89f0640208c5",
+              "name": "region",
+              "value": "={{ $json.text }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1776,
+        16
+      ],
+      "id": "d4ef3722-3f20-4a30-8793-8b8405549b69",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "combineBy": "combineByPosition",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        2032,
+        144
+      ],
+      "id": "7ffa1624-f202-484e-9158-0eb035062880",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        2224,
+        144
+      ],
+      "id": "c6ada7e3-8c79-4334-bc7f-6d6c8d226349",
+      "name": "Convert to File"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Get a file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get a file": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Limit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "City name to English",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Email classification",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "State/Region",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Email classification": {
+      "main": [
+        [
+          {
+            "node": "State/Region",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "City name to English": {
+      "main": [
+        [
+          {
+            "node": "Email classification",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit": {
+      "main": [
+        [
+          {
+            "node": "City name to English",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "State/Region": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "f59c0e02-9a97-4307-bdc0-93f14389bb16",
+  "meta": {
+    "instanceId": "94e1edcc34a91a151fc2ec1b99597068a304e37fdb946fc806f00f97776fce3a"
+  },
+  "id": "NgcntAmWSX1IWFf6",
+  "tags": []
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Simple form",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Enter your date",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Date",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {
+          "respondWithOptions": {
+            "values": {
+              "formSubmittedText": "=Here's your date:\n\n{{ 'LLM' }}"
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "27acaee5-4176-4002-989c-714c50a39739",
+      "name": "On form submission",
+      "webhookId": "93125dc0-53e5-4761-8646-68d63180980f"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.Date }}",
+        "messages": {
+          "messageValues": [
+            {
+              "message": "Convert this date into simple YYYY-MM-DD format. Current year is 2025."
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        224,
+        0
+      ],
+      "id": "a6d45f36-9187-49f8-b365-1b1eaa6205cf",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-5-mini",
+          "mode": "list",
+          "cachedResultName": "gpt-5-mini"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        160,
+        208
+      ],
+      "id": "0dcd7c70-6750-4afa-86f7-6c560cd0eb5e",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "vIt4XIujtaBmV5aq",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {
+          "formDescription": "=Here's your date:\n\n{{ $json.text }}"
+        }
+      },
+      "type": "n8n-nodes-base.form",
+      "typeVersion": 1,
+      "position": [
+        560,
+        0
+      ],
+      "id": "fd364c2f-12ce-4e4d-a1a7-04602ffae298",
+      "name": "Form",
+      "webhookId": "4c4f4fea-b4a8-4a8e-a30b-617e5af98686"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Form",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "2f9f9a2c-ab30-4971-bb99-fda3b0ff0de8",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "94e1edcc34a91a151fc2ec1b99597068a304e37fdb946fc806f00f97776fce3a"
+  },
+  "id": "Zqk006sAoawD8SaY",
+  "tags": []
+}
