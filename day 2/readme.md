@@ -16,3 +16,4 @@ Check the [OpenAI Onboarding Guide](https://github.com/tobiaszwingmann/chatgpt-f
 ## Workflow Automation with n8n
 * [n8n Website](https://n8n.io/)
 * [n8n Workflow](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%202/n8n/Data%20Preparation%20Workflow.json)
+* [n8n AI Bootcamp on O'Reilly](https://learning.oreilly.com/live-events/n8n-ai-bootcamp-building-ai-workflows-and-agents-from-scratch/0642572229986/)
