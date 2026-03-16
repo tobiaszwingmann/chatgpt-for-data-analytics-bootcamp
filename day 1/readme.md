@@ -49,6 +49,7 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 - [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/05_tidy_data_gpt.md)
   - Artifacts: [Python script](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/create_customer_quarterly_tidy.py)
   - Chat example: [Tidy data prep](https://chatgpt.com/share/69b801b5-fbd4-800b-a50b-9deab18c7b39)
+- **Bonus:** [Multiple files chat examples](https://chatgpt.com/share/69b80eea-d5e0-800b-8845-c2eff6992636)
 
 #### Tidy data analysis
 - [Tidy Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/customer_quarterly_tidy.csv)
@@ -60,23 +61,20 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
   - [Visual Data Analysis GPT](https://chatgpt.com/g/g-69b8055886088191a795e914c9345204-visual-data-analysis-gpt) | [Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/05_visual_data_analysis_gpt.md)
   - [Chat example](https://chatgpt.com/share/69b807e7-cd5c-800b-8520-ee4e2c35e7ab)
 
-### Use Case 6: Exploratory Data Analysis
-- [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report_tidy.xlsx)
-- [EDA GPT](https://chatgpt.com/g/g-68a37ec2e9208191862b8cc8a9dec43f-eda-gpt)
-- [Chat example](https://chatgpt.com/share/68a5aebb-a3a8-800b-831e-9159ccca0a73)
-- [Google Colab Notebook](https://colab.research.google.com/drive/1qfhc7__I0594N2eKzghVITDlDk8Ubizv?usp=sharing) 
+### Use Case 6: Data Quality
+- [Transactional Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/tidy_invoice_lines.csv)
+- [Data Quality GPT](https://chatgpt.com/g/g-69b80a23cfcc8191ae2b92f3bdceac13-data-quality-gpt) | [Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/06_data_quality_gpt.md)
+- [Chat example](https://chatgpt.com/share/69b813b7-72f8-800b-ad50-5f13cfd56f94)
 
-### Use Case 7: Customer Segmentation
-- Data: [invoices.csv](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/invoices.csv), [invoice_lines.csv](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/invoice_lines.csv)
-- [Data Analysis GPT](https://chatgpt.com/g/g-68a49ec824048191a708c1d4db73d1d3-data-analysis-gpt)
-- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/00_data-analysis-gpt.md)
-- [Chat example](https://chatgpt.com/share/68a591a9-4330-800b-82fd-17fc5a363611)
-- [Google Colab Notebook](https://colab.research.google.com/drive/1DN07oMF_55huORgH9fYPjZiF0q5auGL7?usp=sharing)
-- Artifacts: [CSV](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/invoices_with_b2b_b2c.csv)
+### Use Case 7: Advanced Data Analysis
+- Data: [Cleaned Transactional Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/tidy_invoice_lines.csv)
+- [Advanced Data Analysis GPT](https://chatgpt.com/g/g-69b817d7ee388191849934eb899abd4c-advanced-data-analysis-gpt)
+- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/07_advanced_data_analysis_gpt.md)
+- [Chat example](https://chatgpt.com/share/69b81ba5-0724-800b-85ba-ac2e956271ef)
 
-### Use Case 9: Forecasting
-- [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/invoices_with_b2b_b2c.csv)
+### Use Case 8: Forecasting
+- [B2B/B2C Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/customer_b2b_b2c_proxy_segments.csv) and [Cleaned Transactional Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/tidy_invoice_lines.csv) 
 - [Forecasting GPT](https://chatgpt.com/g/g-68a4c571de948191949d40f3b67cbcc8-forecasting-gpt)
 - [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/07_forecasting-gpt.md)
-- [Chat example](https://chatgpt.com/share/68a5b09d-49c4-800b-af5c-37366222c85a)
+- [Chat example](https://chatgpt.com/share/69b821d9-7be4-800b-a684-1dbbbc395c81)
 
