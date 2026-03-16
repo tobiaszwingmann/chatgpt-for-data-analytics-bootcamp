@@ -35,7 +35,7 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 
 ## Fast Data Analysis inside ChatGPT
 
-### Use Case 5: Tidy data preparation
+### Use Case 5: Tidy data analysis
 
 #### Naive data analysis
 - [Chat example: Naive analysis](https://chatgpt.com/share/69b7fc37-8e6c-800b-a320-e3e91523eec4)
