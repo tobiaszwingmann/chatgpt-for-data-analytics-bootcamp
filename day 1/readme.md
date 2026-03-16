@@ -35,7 +35,7 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 
 ## Fast Data Analysis inside ChatGPT
 
-### Use Case 6: Tidy data preparation
+### Use Case 5: Tidy data preparation
 
 #### Naive data analysis
 - [Chat example: Naive analysis](https://chatgpt.com/share/69b7fc37-8e6c-800b-a320-e3e91523eec4)
@@ -56,18 +56,17 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
   - **Check**: National/International? Hidden columns? Currency?
   - How much code was written for this?
 - Chat example: [Tidy data analysis](https://chatgpt.com/s/t_69b80483292c8191b7ef666e3c9e50aa)
+- **Bonus:**
+  - [Visual Data Analysis GPT](https://chatgpt.com/g/g-69b8055886088191a795e914c9345204-visual-data-analysis-gpt) | [Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/05_visual_data_analysis_gpt.md)
+  - [Chat example](https://chatgpt.com/share/69b807e7-cd5c-800b-8520-ee4e2c35e7ab)
 
-### Use Case 7: Visual data analysis
-- [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report_tidy.xlsx)
-- [Chat example](https://chatgpt.com/share/68a57d5e-d20c-800b-886a-4fa6571d1c75)
-
-### Use Case 7: Exploratory Data Analysis
+### Use Case 6: Exploratory Data Analysis
 - [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report_tidy.xlsx)
 - [EDA GPT](https://chatgpt.com/g/g-68a37ec2e9208191862b8cc8a9dec43f-eda-gpt)
 - [Chat example](https://chatgpt.com/share/68a5aebb-a3a8-800b-831e-9159ccca0a73)
 - [Google Colab Notebook](https://colab.research.google.com/drive/1qfhc7__I0594N2eKzghVITDlDk8Ubizv?usp=sharing) 
 
-### Use Case 8: Customer Segmentation
+### Use Case 7: Customer Segmentation
 - Data: [invoices.csv](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/invoices.csv), [invoice_lines.csv](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/invoice_lines.csv)
 - [Data Analysis GPT](https://chatgpt.com/g/g-68a49ec824048191a708c1d4db73d1d3-data-analysis-gpt)
 - [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/00_data-analysis-gpt.md)
