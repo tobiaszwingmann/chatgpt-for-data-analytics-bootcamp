@@ -33,19 +33,31 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 
 ---
 
-## Everyday Excel Support 
-### Use Case 5: Excel Guru
+## Fast Data Analysis inside ChatGPT
+
+### Use Case 6: Tidy data preparation
+
+#### Naive data analysis
+- [Chat example: Naive analysis](https://chatgpt.com/share/69b7fc37-8e6c-800b-a320-e3e91523eec4)
+  - **Prompt**: `Give me a summary of the quarterly performance`
+  - **Check**: National/International? Hidden columns? Currency?
+  - How much code was written for this?
+ 
+#### Tidy data preparation
 - [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report.xlsx)
-- [Excel Guru GPT](https://chatgpt.com/g/g-68a4cf16611c81919e185a006c193d70-excel-guru)
-- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/05_excel-guru-gpt.md)
-- [Chat example 1](https://chatgpt.com/share/68a4d93d-1804-800b-b3cf-f20ad782a770)
-- [Chat example 2](https://chatgpt.com/share/68a4d6b7-aa94-800b-9ff3-bc4ff3acff23)
-- Artifacts: [Excel](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/consolidated_customer_report_with_segments.xlsx)
+- [Tidy Data GPT](https://chatgpt.com/g/g-69b7fd4c7d08819199164820f9c4e867-tidy-data-gpt)
+- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/05_tidy_data_gpt.md)
+  - Artifacts: [Python script](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/create_customer_quarterly_tidy.py)
+  - Chat example: [Tidy data prep](https://chatgpt.com/share/69b801b5-fbd4-800b-a50b-9deab18c7b39)
 
----
+#### Tidy data analysis
+- [Tidy Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/customer_quarterly_tidy.csv)
+  - **Prompt**: `Give me a summary of the quarterly performance`
+  - **Check**: National/International? Hidden columns? Currency?
+  - How much code was written for this?
+- Chat example: [Tidy data analysis](https://chatgpt.com/s/t_69b80483292c8191b7ef666e3c9e50aa)
 
-## Data Analysis inside ChatGPT
-### Use Case 6: General data analysis
+### Use Case 7: Visual data analysis
 - [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report_tidy.xlsx)
 - [Chat example](https://chatgpt.com/share/68a57d5e-d20c-800b-886a-4fa6571d1c75)
 
