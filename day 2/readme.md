@@ -10,8 +10,13 @@ Check the [OpenAI Onboarding Guide](https://github.com/tobiaszwingmann/chatgpt-f
 * [Google Colab](https://colab.research.google.com/drive/1rNxdxKj3Bg0F0bVsB1l3YABcstI9dk7S?usp=sharing)
 
 ## ChatGPT in Google Sheets or Excel
-* [Google Sheets](https://docs.google.com/spreadsheets/d/1cmX0bdRJ-vx_1v46J1BILEPhPm7YK2qXv-tw7B_3skM/edit?usp=sharing)
-* [Google Sheets (Complete)](https://docs.google.com/spreadsheets/d/1tZX1ntR36oO12UIzwNnJFswrdgwWkD4kvAviHC7FUZk/edit?usp=sharing)
+### Excel
+* [ChatGPT for Excel Plugin](https://chatgpt.com/apps/spreadsheets/)
+
+### Google Sheets
+* [GPT for Sheets and Docs Plugin](https://workspace.google.com/marketplace/app/gpt_for_sheets_and_docs/677318054654)
+* [Excercise Sheet](https://docs.google.com/spreadsheets/d/1cmX0bdRJ-vx_1v46J1BILEPhPm7YK2qXv-tw7B_3skM/edit?usp=sharing)
+* [Solution Sheet](https://docs.google.com/spreadsheets/d/1tZX1ntR36oO12UIzwNnJFswrdgwWkD4kvAviHC7FUZk/edit?usp=sharing)
 
 ## Workflow Automation with n8n
 * [n8n Website](https://n8n.io/)
