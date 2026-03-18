@@ -62,6 +62,8 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
   - [Visual Data Analysis GPT](https://chatgpt.com/g/g-69b8055886088191a795e914c9345204-visual-data-analysis-gpt) | [Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/05_visual_data_analysis_gpt.md)
   - [Chat example](https://chatgpt.com/share/69b807e7-cd5c-800b-8520-ee4e2c35e7ab)
 
+### Transactional Data
+
 ### Use Case 6: Data Quality
 - [Transactional Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/tidy_invoice_lines.csv)
 - [Data Quality GPT](https://chatgpt.com/g/g-69b80a23cfcc8191ae2b92f3bdceac13-data-quality-gpt) | [Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/06_data_quality_gpt.md)
