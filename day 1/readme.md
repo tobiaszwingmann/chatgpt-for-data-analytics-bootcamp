@@ -38,6 +38,7 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 ### Use Case 5: Tidy data analysis
 
 #### Naive data analysis
+- [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report.xlsx)
 - [Chat example: Naive analysis](https://chatgpt.com/share/69b7fc37-8e6c-800b-a320-e3e91523eec4)
   - **Prompt**: `Give me a summary of the quarterly performance`
   - **Check**: National/International? Hidden columns? Currency?
