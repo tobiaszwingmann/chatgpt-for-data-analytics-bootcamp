@@ -48,7 +48,7 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 - [Tidy Data GPT](https://chatgpt.com/g/g-69b7fd4c7d08819199164820f9c4e867-tidy-data-gpt)
 - [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/05_tidy_data_gpt.md)
   - Artifacts: [Python script](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/artifacts/create_customer_quarterly_tidy.py)
-  - Chat example: [Tidy data prep](https://chatgpt.com/share/69b801b5-fbd4-800b-a50b-9deab18c7b39)
+  - Chat example: [Tidy data prep](https://chatgpt.com/share/6a327256-d670-83eb-843e-0ae28ad94170)
 - **Bonus:** [Multiple files chat examples](https://chatgpt.com/share/69b80eea-d5e0-800b-8845-c2eff6992636)
 
 #### Tidy data analysis
