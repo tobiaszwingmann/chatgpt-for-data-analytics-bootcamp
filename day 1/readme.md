@@ -70,13 +70,11 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 
 ### Use Case 7: Advanced Data Analysis
 - Data: [Cleaned Transactional Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/tidy_invoice_lines.csv)
-- [Advanced Data Analysis GPT](https://chatgpt.com/g/g-69b817d7ee388191849934eb899abd4c-advanced-data-analysis-gpt)
-- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/07_advanced_data_analysis_gpt.md)
+- [Advanced Data Analysis GPT](https://chatgpt.com/g/g-69b817d7ee388191849934eb899abd4c-advanced-data-analysis-gpt) | [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/07_advanced_data_analysis_gpt.md)
 - [Chat example](https://chatgpt.com/share/69b81ba5-0724-800b-85ba-ac2e956271ef)
 
 ### Use Case 8: Forecasting
 - [B2B/B2C Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/customer_b2b_b2c_proxy_segments.csv) and [Cleaned Transactional Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/tidy_invoice_lines.csv) 
-- [Forecasting GPT](https://chatgpt.com/g/g-68a4c571de948191949d40f3b67cbcc8-forecasting-gpt)
-- [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/08_forecasting_gpt.md)
+- [Forecasting GPT](https://chatgpt.com/g/g-68a4c571de948191949d40f3b67cbcc8-forecasting-gpt) | [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/08_forecasting_gpt.md)
 - [Chat example](https://chatgpt.com/share/69b821d9-7be4-800b-a684-1dbbbc395c81)
 
