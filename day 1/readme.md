@@ -17,7 +17,7 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 ### Use Case 2: Issue Trees
 - [Issue Tree GPT](https://chatgpt.com/g/g-qaKT45vrL-issue-tree-gpt)
 - [GPT Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/02_issue-tree-gpt.md)
-- [Chat example](https://chatgpt.com/share/6a324610-abdc-83eb-b8a8-65081d96a9d0)
+- [Chat example](https://chatgpt.com/share/6a329f2e-417c-83eb-b033-67101b88518f)
 
 ### Use Case 3: Root Cause Analysis
 - [RCA GPT](https://chatgpt.com/g/g-68a595214cdc8191885d097cdd8243d2-rca-gpt)
