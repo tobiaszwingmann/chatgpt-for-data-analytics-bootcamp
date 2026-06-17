@@ -53,7 +53,7 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 
 #### Tidy data analysis
 - [Tidy Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/customer_quarterly_tidy.csv)
-  - **Prompt**: `Give me a summary of the quarterly performance`
+  - **Prompt**: `Compare revenue by quarter national vs. international in a table`
   - **Check**: National/International? Hidden columns? Currency?
   - How much code was written for this?
 - Chat example: [Tidy data analysis](https://chatgpt.com/s/t_69b80483292c8191b7ef666e3c9e50aa)
