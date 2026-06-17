@@ -59,7 +59,7 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 - Chat example: [Tidy data analysis](https://chatgpt.com/share/6a326921-7d28-83eb-903a-c774b34f1b1c)
 - **Bonus:**
   - [Visual Data Analysis GPT](https://chatgpt.com/g/g-69b8055886088191a795e914c9345204-visual-data-analysis-gpt) | [Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/05_visual_data_analysis_gpt.md)
-  - [Chat example](https://chatgpt.com/share/6a329d5e-b664-83eb-b55c-bf87398e0154)
+  - [Chat example](https://chatgpt.com/share/6a32d3a3-ba34-83ed-9276-0bf07b82171a)
 
 ### Transactional Data
 
