@@ -274,7 +274,7 @@ Knowledge
 
 Recommended Model
 -----------------
-GPT-5.4 Thinking
+GPT-5.5 Thinking
 
 Capabilities
 ------------
