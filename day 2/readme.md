@@ -11,6 +11,7 @@ Check the [OpenAI Onboarding Guide](https://github.com/tobiaszwingmann/chatgpt-f
 
 ## ChatGPT in Google Sheets or Excel
 ### Excel
+* [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/customer_b2b_b2c_proxy_segments.csv)
 * [ChatGPT for Excel Plugin](https://chatgpt.com/apps/spreadsheets/)
 
 ### Google Sheets
