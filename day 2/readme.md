@@ -15,7 +15,7 @@ Check the [OpenAI Onboarding Guide](https://github.com/tobiaszwingmann/chatgpt-f
 * [ChatGPT for Excel Plugin](https://chatgpt.com/apps/spreadsheets/)
 
 ### Google Sheets
-* [GPT for Sheets and Docs Plugin](https://workspace.google.com/marketplace/app/gpt_for_sheets_and_docs/677318054654)
+* [GPT for Sheets and Docs Plugin](https://gptforwork.com/install)
 * [Excercise Sheet](https://docs.google.com/spreadsheets/d/1cmX0bdRJ-vx_1v46J1BILEPhPm7YK2qXv-tw7B_3skM/edit?usp=sharing)
 * [Solution Sheet](https://docs.google.com/spreadsheets/d/1tZX1ntR36oO12UIzwNnJFswrdgwWkD4kvAviHC7FUZk/edit?usp=sharing)
 
