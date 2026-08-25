@@ -52,11 +52,10 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 
 1. Upload this [file](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report.xlsx)
 2. **Prompt**: `Compare revenue by quarter national vs. international in a table`
-3. **Check**: National/International? Hidden columns? Currency?
+3. **Check**: National Q1 Total? Hidden columns? Currency?
   
 - [Chat example: Naive analysis](https://chatgpt.com/share/6a32688b-5c90-83eb-82ec-0645ebc88e63)
 
- 
 #### Tidy data preparation
 - [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report.xlsx)
 - [Tidy Data GPT](https://chatgpt.com/g/g-69b7fd4c7d08819199164820f9c4e867-tidy-data-gpt)
@@ -69,7 +68,7 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 *Try your Data Analysis GPT here from the beginning*
 - [Tidy Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/customer_quarterly_tidy.csv)
   - **Prompt**: `Compare revenue by quarter national vs. international in a table`
-  - **Check**: National/International? Hidden columns? Currency?
+  - **Check**: National Q1 Total? Hidden columns? Currency?
 - Chat example: [Tidy data analysis](https://chatgpt.com/share/6a326921-7d28-83eb-903a-c774b34f1b1c)
 - **Bonus:**
   - [Visual Data Analysis GPT](https://chatgpt.com/g/g-69b8055886088191a795e914c9345204-visual-data-analysis-gpt) | [Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/05_visual_data_analysis_gpt.md)
