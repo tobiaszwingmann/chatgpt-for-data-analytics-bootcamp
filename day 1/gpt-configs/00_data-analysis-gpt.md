@@ -1,3 +1,7 @@
+Icon
+-----
+[Download](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/data-analysis-gpt-icon.png)
+
 Name
 ----
 Data Analysis GPT
