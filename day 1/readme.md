@@ -48,11 +48,14 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 ### Use Case 5: Tidy data analysis
 
 #### Naive data analysis
-- [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report.xlsx)
+*Use simply ChatGPT here without any custom GPT*
+
+1. Upload this [file](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report.xlsx)
+2. **Prompt**: `Compare revenue by quarter national vs. international in a table`
+3. **Check**: National/International? Hidden columns? Currency?
+  
 - [Chat example: Naive analysis](https://chatgpt.com/share/6a32688b-5c90-83eb-82ec-0645ebc88e63)
-  - **Prompt**: `Compare revenue by quarter national vs. international in a table`
-  - **Check**: National/International? Hidden columns? Currency?
-  - How much code was written for this?
+
  
 #### Tidy data preparation
 - [Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/consolidated_customer_report.xlsx)
