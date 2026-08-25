@@ -63,10 +63,10 @@ The whole day will cover this case study: [Case Study Elegant Homes UK](https://
 - **Bonus:** [Multiple files chat examples](https://chatgpt.com/share/69b80eea-d5e0-800b-8845-c2eff6992636)
 
 #### Tidy data analysis
+*Try your Data Analysis GPT here from the beginning*
 - [Tidy Data](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/data/customer_quarterly_tidy.csv)
   - **Prompt**: `Compare revenue by quarter national vs. international in a table`
   - **Check**: National/International? Hidden columns? Currency?
-  - How much code was written for this?
 - Chat example: [Tidy data analysis](https://chatgpt.com/share/6a326921-7d28-83eb-903a-c774b34f1b1c)
 - **Bonus:**
   - [Visual Data Analysis GPT](https://chatgpt.com/g/g-69b8055886088191a795e914c9345204-visual-data-analysis-gpt) | [Config](https://github.com/tobiaszwingmann/chatgpt-for-data-analytics-bootcamp/blob/main/day%201/gpt-configs/05_visual_data_analysis_gpt.md)
